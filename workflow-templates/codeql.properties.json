@@ -1,0 +1,6 @@
+{
+  "name": "CodeQL",
+  "description": "CodeQL analysis for GitHub Actions workflows. Extend the matrix for this repository's languages. Actions are pinned by commit.",
+  "iconName": "octicon shield-lock",
+  "categories": ["Code Scanning"]
+}

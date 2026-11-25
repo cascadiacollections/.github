@@ -1,0 +1,6 @@
+{
+  "name": "OpenSSF Scorecard",
+  "description": "Scorecard supply-chain check on the default branch. No secrets. Publishes a result when id-token write is allowed.",
+  "iconName": "octicon shield-check",
+  "categories": ["Code Scanning"]
+}

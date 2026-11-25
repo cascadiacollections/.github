@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question
+    url: https://github.com/orgs/cascadiacollections/discussions
+    about: Questions and ideas. Please don't report a vulnerability here.
+  - name: Report a security vulnerability
+    url: https://github.com/cascadiacollections/.github/blob/main/SECURITY.md
+    about: Report privately through the affected repository's Security tab. Do not open a public issue.
