@@ -1,0 +1,55 @@
+name: Bug report
+description: Something failed or behaved unexpectedly.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search the open issues first. For a vulnerability, follow the [security policy](https://github.com/cascadiacollections/.github/blob/main/SECURITY.md) and do not file a public issue. For a question, use [Discussions](https://github.com/orgs/cascadiacollections/discussions).
+
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Existing issues
+      options:
+        - label: I searched existing issues and did not find this.
+          required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Version, operating system, and anything else needed to reproduce it.
+      value: |
+        - Version:
+        - OS:
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant output, if you have it. Pasted text is formatted as a code block.
+      render: shell
+    validations:
+      required: false

@@ -1,0 +1,32 @@
+name: Feature request
+description: A change you'd like this project to make.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search the open issues first. For a vulnerability, follow the [security policy](https://github.com/cascadiacollections/.github/blob/main/SECURITY.md) and do not file a public issue.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What you can't do today, or what's costly about the current behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What you'd like changed. A sketch is enough.
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Other approaches you considered.
+    validations:
+      required: false
